@@ -46,39 +46,39 @@ onMounted(() => {
         <div class="row">
           <ul class="nav">
             <li class="item">
-              <RouterLink to="/home" class="nav-link"
-                ><i class="fa-solid fa-house"></i> Accueil</RouterLink
+              <a to="#home" class="nav-link"
+                ><i class="fa-solid fa-house"></i> Accueil</a
               >
             </li>
             <li class="item">
-              <RouterLink ref="#apropos" class="nav-link"
+              <a ref="#apropos" class="nav-link"
                 ><i class="fa-solid fa-user-tie"></i> A propos de
-                nous</RouterLink
+                nous</a
               >
             </li>
             <li class="item">
-              <RouterLink to="/about" class="nav-link"
-                ><i class="fa-solid fa-bars-progress"></i> Parcours profesionnel</RouterLink
+              <a to="#parcours" class="nav-link"
+                ><i class="fa-solid fa-bars-progress"></i> Parcours profesionnel</a
               >
             </li>
             <li class="item">
-              <RouterLink to="/about" class="nav-link"
-                ><i class="fa-brands fa-discourse"></i> Mes competences</RouterLink
+              <a to="#competence" class="nav-link"
+                ><i class="fa-brands fa-discourse"></i> Mes competences</a
               >
             </li>
             <li class="item">
-              <RouterLink to="/about" class="nav-link"
-                ><i class="fa-solid fa-book-skull"></i> Cursus</RouterLink
+              <a to="#cursus" class="nav-link"
+                ><i class="fa-solid fa-book-skull"></i> Cursus</a
               >
             </li>
             <li class="item">
-              <RouterLink to="/about" class="nav-link"
-                ><i class="fa-solid fa-book-skull"></i> Mes projets</RouterLink
+              <a to="#projet" class="nav-link"
+                ><i class="fa-solid fa-book-skull"></i> Mes projets</a
               >
             </li>
             <li class="item">
-              <RouterLink ref="#contact" class="nav-link"
-                ><i class="fa-solid fa-at"></i> Contact</RouterLink
+              <a ref="#contact" class="nav-link"
+                ><i class="fa-solid fa-at"></i> Contact</a
               >
             </li>
           </ul>
@@ -161,6 +161,10 @@ onMounted(() => {
   .sidebar {
     display: none;
   }
+
+  .nav .item {
+  border: 1px solid #8d8d8d;
+}
   .menu_toggle {
     position: absolute;
     display: flex;

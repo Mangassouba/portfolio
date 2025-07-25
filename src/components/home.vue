@@ -69,14 +69,14 @@
 
         <div class="propos">
           <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 pp1">
               <p>Nom complet</p>
               <p>Email</p>
               <p>Telephone</p>
               <p>Adresse</p>
               <p>Github</p>
             </div>
-            <div class="col">
+            <div class="col pp2">
               <p>: Hama Houllah Sourakhata Mangassouba</p>
               <p>: hamallahmanga@gmail.com</p>
               <p>: +222 44896920</p>
@@ -271,9 +271,9 @@
       <div class="projets">
         <div class="card-projet">
           <div class="img">
-            <img src="../assets/image/Dashbord.jpg" alt="" />
+            <img src="../assets/image/simplon.jpg" alt="" />
             <a
-              href="https://www.figma.com/proto/yhwOdw71iFpekAkQ2F9XIf/Untitled?node-id=27-3238&t=j0y1dPwyPb7OT0Wy-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=27%3A3238"
+              href="https://mangassouba.github.io/tp-maquette-simplon/"
               >Voir <i class="fa-solid fa-arrow-right"></i></a
             >
           </div>
@@ -282,7 +282,7 @@
           <div class="img">
             <img src="../assets/image/Heros.png" alt="" />
             <a
-              href="https://www.figma.com/proto/Ph5cGUgcdpOTRBLviUlWdr/maquette-BTP-Solution?node-id=3-22&t=j0y1dPwyPb7OT0Wy-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A22"
+              href="https://mangassouba.github.io/site-btp-solutions/"
               >Voir</a
             >
           </div>
@@ -299,8 +299,11 @@
         <div class="card-projet">
           <div class="img">
             <img src="../assets/image/Home.jpg" alt="" />
-            <a
+            <!-- <a
               href="https://www.figma.com/proto/4uMVpidL7OFmzRWL1gkVIf/Landing-Page-for-Dental-Clinic--1-?node-id=8-281&starting-point-node-id=8%3A281"
+              >Voir</a -->
+            <a
+              href="https://mangassouba.github.io/Cabinet-Dentaire/"
               >Voir</a
             >
           </div>
@@ -344,6 +347,9 @@
                 id="exampleFormControlTextarea1"
                 rows="3"
               ></textarea>
+            </div>
+            <div class="mb-3">
+              <div class="btn btn-primary">Envoyer</div>
             </div>
           </form>
         </div>
@@ -631,7 +637,7 @@
 
 .projets {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
@@ -743,6 +749,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .pp1 {
+    width: 150px;
+  }
+
+  .pp2 {
+    width: 100%;
   }
 
   .parcour {
